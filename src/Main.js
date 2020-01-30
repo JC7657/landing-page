@@ -7,13 +7,14 @@ import Jumbo from './components/Component-jumbotron'
 const Main = () => {
 
   return (
-    <>
+    
     <div>
-        <Navbar  mainElem="Start Bootstrap"elem1="Home" elem2="About" elem3="Services" elem4="Contact" />
-    </div>
-    <div>
-    <Jumbo title="A Warm Welcome!" paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat." button="Call to action!"/>
-    </div>
+      <div>
+        <Navbar mainElem="Start Bootstrap" elem1="Home" elem2="About" elem3="Services" elem4="Contact" />
+      </div>
+      <div>
+        <Jumbo title="A Warm Welcome!" paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique " button="Call to action!" />
+      </div>
       <div className="container">
         <div className="row text-center">
 
@@ -28,7 +29,7 @@ const Main = () => {
         </div>
       </div>
       <FooterCard footerName="Copyright © Our Website 2020" />
-    </>
+    </div>
   )
 
 }
