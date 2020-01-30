@@ -1,3 +1,12 @@
 .card{
   margin-left: 30px;
 }
+.jumbotron {
+  max-width: 69.2%;
+}
+.navbar-brand {
+  padding-left: 11.5%;
+}
+.navbar-nav {
+  padding-right: 15%;
+}
